@@ -1,0 +1,17 @@
+{
+  "watch": [
+    "0.indexMapper",
+    "1.contents",
+    "app",
+    "components",
+    "lib",
+    "public",
+    "next.config.ts",
+    "tsconfig.json",
+    "eslint.config.mjs"
+  ],
+  "ext": "md,ts,tsx,js,jsx,css,json,mjs",
+  "ignore": ["node_modules", ".next", "out"],
+  "delay": 300,
+  "exec": "next dev"
+}
